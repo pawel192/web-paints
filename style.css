@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.container{
+	margin:0 auto;
+	max-width:1200px;
+}
+header{
+	background:#bcbcbc;
+	width:100%;
+	
+}
+nav{
+	width:60%;
+}
+nav > ul {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+}
