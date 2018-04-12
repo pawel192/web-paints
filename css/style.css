@@ -85,7 +85,6 @@ header .navbar ul li a{
 }
 .description > h1,h2{
 	text-align:center;
-	
 }
 .homepage{
 	background-image:url(../img/all_colors-wallpaper-1024x576.jpg);
@@ -97,9 +96,40 @@ header .navbar ul li a{
 	margin-top:10vh;
 	text-align: center;
 }
-.homepage > .description >h1,form{
-
+.colors-front{
+	display:non;
 }
+.content-back{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#back-button{
+	margin-top:40px;
+	padding:6px 20px;
+	font-size:1.5em;
+	color:#ffffff;
+	border-radius:25px;
+	background-color:red;
+	border:none;
+	cursor:pointer;
+	font-family: 'Lato', sans-serif;
+}
+.hidden {
+	display:none;
+}
+.center{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.color-decoration{
+	text-decoration: underline;
+}
+
+
+
+
 /* form */
 form{
 	width:90%;
@@ -116,7 +146,7 @@ form > button {
 	cursor:pointer;
 	font-family: 'Lato', sans-serif;
 }
-.double-input{
+.color-search{
 	display:flex;
 	justify-content: space-around;
 }

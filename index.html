@@ -81,13 +81,13 @@
         <section>
             <div class="container">
                 <div class="sub-menu homepage">
-                    <div class="description">
-                        <h1>Witaj! Jeżeli chcesz pomalować rower, szafkę w domu lub szukasz po prostu farb w sprayu. To świetnie trafiłeś, my Ci pomożemy znaleźć najlepiej dopasowany produkt do Twoich potrzeb!
+                     <div class="description colors-front">
+                        <h1>Witaj! Jeżeli chcesz pomalować rower, szafkę w domu lub szukasz po prostu farb w sprayu. To świetnie trafiłeś, pomożemy Ci znaleźć najlepiej dopasowany produkt do Twoich potrzeb!
                         </h1>
                         <form>
                             <fieldset>
                                 <legend>Wyszukiwarka kolorów</legend>
-                                <div class="double-input">
+                                <div class="color-search">
                                     <div class="form-input-container">
                                         <label for="color-ral">RAL</label>
                                         <input type="text" id="color-ral" placeholder="e.g.3020" size="4"/>
@@ -110,9 +110,36 @@
                                     </div>
                                 </div>
                             </fieldset>
-                            <button type="submit">Sprawdź dostępność</button>
-                        </form>
-                     </div>
+                            <button type="submit" id="color-button">Sprawdź dostępność</button>
+                        </form> 
+                    </div>
+                    <div class="description colors-back hidden" id="colors-from-form">
+                    <div class="content-back">
+                        <div class="color-result" id="result1">
+                            <div id="color1"><span class="color-decoration">RAL:</span>  </div>
+                            <div class="color-img1"></div>
+                        </div> 
+                        <div class="color-result" id="result2">
+                            <div id="color2"><span class="color-decoration">RGB:</span>  </div>
+                            <div class="color-img2"></div>
+                        </div> 
+                        <div class="color-result" id="result3">
+                            <div id="color3"><span class="color-decoration">CMYK:</span>  </div>
+                            <div class="color-img3"></div>
+                        </div> 
+                        <div class="color-result" id="result4">
+                            <div id="color4"><span class="color-decoration">HEX:</span>  </div>
+                            <div class="color-img4"></div>
+                        </div> 
+                        <div class="color-result" id="result5">
+                            <div id="color5"><span class="color-decoration">PANTONE:</span>  </div>
+                            <div class="color-img5"></div>
+                        </div> 
+                    </div> 
+                    <div class="center">
+                        <button type="submit" id="back-button">Wróć</button>
+                    </div>
+                </div>
                 </div>
                 <div class="sub-menu producer">
                     <div class="description">
