@@ -72,12 +72,12 @@ header .navbar ul li a{
 	font-size: 0.8em;
 }
 .sub-menu {
-	height:90vh;
 	width:100%;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	color:#ffffff;
+	margin:6% 0;
 }
 .description{
 	width:70%;
