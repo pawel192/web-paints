@@ -9,18 +9,21 @@ body{
 }
 .container{
 	margin:0 auto;
-	max-width:1200px;
 }
 header{
-	background:#111111;
 	width:100%;
 	padding:10px 0;
+	background-image:url(../img/all_colors-wallpaper-1024x576.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
 }
 header .navbar{
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: nowrap;
+	margin:0 3%;
 }
 header .navbar #logo{
 	align-self: center;
@@ -28,12 +31,12 @@ header .navbar #logo{
 	font-weight:900;
 	font-size:3em;
 	letter-spacing: 2px;
-	color:#176aef;
+	color:#ffffff;
 
 	
 }
 header .navbar #logo span{
-	color:#003da0;
+	color:grey;
 	font-weight:400;
 
 }
@@ -51,7 +54,6 @@ header .navbar ul{
 header .navbar ul li{
 	border:2px solid #ffffff;
 	border-radius:30px;
-	background-color:#5b5b5b;
 	margin:10px 0;
 	display:flex;
 	align-items: center;
@@ -85,12 +87,6 @@ header .navbar ul li a{
 }
 .description > h1,h2{
 	text-align:center;
-}
-.homepage{
-	background-image:url(../img/all_colors-wallpaper-1024x576.jpg);
-	background-size: cover;
-	background-position: center;
-	overflow: hidden;
 }
 .homepage form{
 	margin-top:10vh;
