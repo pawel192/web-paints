@@ -21,7 +21,7 @@
                      <li><a href="#">Kontakt</a></li>
                 </ul>
             </nav>
-            <div class="sub-menu-flex homepage">
+            <div class="sub-menu-flex homepage content-front">
                      <div class="description colors-front">
                         <h1>Witaj! Jeżeli chcesz pomalować rower, szafkę w domu lub szukasz po prostu farb w sprayu. To świetnie trafiłeś, pomożemy Ci znaleźć najlepiej dopasowany produkt do Twoich potrzeb!
                         </h1>
@@ -31,23 +31,23 @@
                                 <div class="color-search">
                                     <div class="form-input-container">
                                         <label for="color-ral">RAL</label>
-                                        <input type="text" id="color-type" placeholder="e.g.3020" size="4"/>
+                                        <input type="text" class="color-value" id="color-value1" placeholder="e.g.3020" size="4"/>
                                     </div>
                                     <div class="form-input-container">
                                         <label for="color-rgb">RGB</label>
-                                        <input type="text" id="color-type" placeholder="e.g.255,255,255"/>
+                                        <input type="text" class="color-value" id="color-value2" placeholder="e.g.255,255,255"/>
                                     </div>
                                     <div class="form-input-container">
                                         <label for="color-cmyk">CMYK</label>
-                                        <input type="text" id="color-type" placeholder="e.g.0,90,85,0"/>
+                                        <input type="text" class="color-value" id="color-value3" placeholder="e.g.0,90,85,0"/>
                                     </div>
                                     <div class="form-input-container">
                                         <label for="color-hex">HEX</label>
-                                        <input type="text" id="color-type" placeholder="e.g.#c8393b"/>
+                                        <input type="text" class="color-value" id="color-value4" placeholder="e.g.#c8393b"/>
                                     </div>
                                     <div class="form-input-container">
                                         <label for="color-pantone">PANTONE</label>
-                                        <input type="text" id="color-type" placeholder="e.g.032 U"/>
+                                        <input type="text" class="color-value" id="color-value5" placeholder="e.g.032 U"/>
                                     </div>
                                 </div>
                             </fieldset>
@@ -57,23 +57,23 @@
                 <div class="description colors-back hidden" id="colors-from-form">
                     <div class="content-back">
                         <div class="color-result" id="result1">
-                            <div id="color"><span class="color-decoration">RAL:</span></div>
+                            <div class="color-decoration">RAL:<span id="c-ral"></span></div>
                             <div class="color-img1"></div>
                         </div> 
                         <div class="color-result" id="result2">
-                            <div id="color"><span class="color-decoration">RGB:</span></div>
+                            <div class="color-decoration">RGB:<span id="c-rgb"></span></div>
                             <div class="color-img2"></div>
                         </div> 
                         <div class="color-result" id="result3">
-                            <div id="color"><span class="color-decoration">CMYK:</span></div>
+                            <div class="color-decoration">CMYK:<span id="c-cmyk"></span></div>
                             <div class="color-img3"></div>
                         </div> 
                         <div class="color-result" id="result4">
-                            <div id="color"><span class="color-decoration">HEX:</span></div>
+                            <div class="color-decoration">HEX:<span id="c-hex"></span></div>
                             <div class="color-img4"></div>
                         </div> 
                         <div class="color-result" id="result5">
-                            <div id="color"><span class="color-decoration">PANTONE:</span></div>
+                            <div class="color-decoration">PANTONE:<span id="c-pantone"></span></div>
                             <div class="color-img5"></div>
                         </div> 
                     </div> 
